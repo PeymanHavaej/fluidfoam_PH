@@ -11,6 +11,7 @@ from fluidfoam.readpostpro import readforce, readprobes
 from fluidfoam.meshvisu import MeshVisu
 from fluidfoam.openfoamsimu import OpenFoamSimu
 from fluidfoam._version import __version__
+from fluidfoam.fluidfoam_write import OpenFoamFileWriter
 
 warnings.simplefilter("always", category=DeprecationWarning)
 
